@@ -20,7 +20,8 @@ namespace api_concesionario.Controllers
         [Route("Login")]
         public async Task<IActionResult> Login([FromBody] Empleado request)
         {
-            Empleado employee = await _context.Empleados.FirstOrDefaultAsync(e => e.Usuario == request.Usuario && e.Contrasena == request.Contrasena);
+            Empleado employee = await _context.Empleados.FirstOrDefaultAsync(
+                e => e.Usuario == request.Usuario && e.Contrasena == request.Contrasena);
             if (employee == null)
             {
                 return NotFound();

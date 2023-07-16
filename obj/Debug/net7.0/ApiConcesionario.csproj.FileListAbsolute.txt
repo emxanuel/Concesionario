@@ -74,3 +74,9 @@ C:\Users\ealg2\Documents\Web\api-concesionario\obj\Debug\net7.0\refint\ApiConces
 C:\Users\ealg2\Documents\Web\api-concesionario\obj\Debug\net7.0\ApiConcesionario.pdb
 C:\Users\ealg2\Documents\Web\api-concesionario\obj\Debug\net7.0\ApiConcesionario.genruntimeconfig.cache
 C:\Users\ealg2\Documents\Web\api-concesionario\obj\Debug\net7.0\ref\ApiConcesionario.dll
+C:\Users\ealg2\Documents\Web\api-concesionario\bin\Debug\net7.0\System.Web.Cors.dll
+C:\Users\ealg2\Documents\Web\api-concesionario\bin\Debug\net7.0\System.Net.Http.Formatting.dll
+C:\Users\ealg2\Documents\Web\api-concesionario\bin\Debug\net7.0\System.Web.Http.dll
+C:\Users\ealg2\Documents\Web\api-concesionario\bin\Debug\net7.0\System.Web.Http.Cors.dll
+C:\Users\ealg2\Documents\Web\api-concesionario\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\ealg2\Documents\Web\api-concesionario\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
