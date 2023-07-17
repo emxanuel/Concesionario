@@ -5,27 +5,27 @@ interface Props {
 }
 
 export type UserData = {
-    id: number,
-    first_name: string,
-    last_name: string,
-    idDocument: string,
-    password: string,
-    birthdate: string,
-    hireDate: string,
-    department: number,
-    salary: number
+    idEmpleado: number,
+    nombre: string,
+    apellido: string,
+    cedula: string,
+    contrasena: string,
+    fechaNacimiento: string,
+    fechaContratacion: string,
+    departamento: number,
+    sueldo: number
 };
 
 const userContext = createContext<UserData>({
-    id: 0,
-    first_name: "",
-    last_name: "",
-    password: "",
-    birthdate: "",
-    idDocument: '',
-    hireDate: '',
-    department: 0,
-    salary: 0
+    idEmpleado: 0,
+    nombre: "",
+    apellido: "",
+    contrasena: "",
+    fechaNacimiento: "",
+    cedula: '',
+    fechaContratacion: '',
+    departamento: 0,
+    sueldo: 0
 });
 
 const UserProvider: React.FC<Props> = ({ children }) => {
