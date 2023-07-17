@@ -35,6 +35,22 @@ namespace ApiConcesionario.Controllers
             return StatusCode(StatusCodes.Status200OK, "ok");
         }
 
+        [HttpGet]
+        [Route("Read/{id:int}")]
+        public async Task<IActionResult> GetSingleVehicle(int id)
+        {
+            Vehiculo vehicle = await _context.Vehiculos.FindAsync(id);
+
+            if(vehicle == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                return StatusCode(StatusCodes.Status200OK, vehicle);
+            }
+        }
+
         [HttpPut]
         [Route("Update")]
         public async Task<IActionResult> UpdateVehicle([FromBody] Vehiculo request)
