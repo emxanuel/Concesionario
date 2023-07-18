@@ -1,5 +1,5 @@
 import React from 'react'
-import { vehicle } from '../types/vehicle'
+import { vehicle } from '../types/types'
 import { client } from '../types/client'
 import { useNavigate } from 'react-router-dom'
 

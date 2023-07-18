@@ -1,4 +1,4 @@
-import type { client } from "../types/client";
+import type { client } from "../types/types";
 
 export const clientDefault: client = {
     idCliente: 0,

@@ -2,9 +2,8 @@ import React, { useState, useEffect } from 'react'
 import { useUserContext } from './UserContext'
 import Card from './Card';
 import { getVehicles } from '../functions/vehicles.functions';
-import { client } from '../types/client';
 import { getClients } from '../functions/clients.functions';
-import { vehicle } from '../types/vehicle';
+import { vehicle, client } from '../types/types';
 import { vehicleDefault } from '../modules/vehicle';
 import { clientDefault } from '../modules/client';
 

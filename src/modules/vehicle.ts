@@ -1,4 +1,4 @@
-import type { vehicle } from "../types/vehicle"
+import type { vehicle } from "../types/types"
 
 export const vehicleDefault: vehicle = {
     idAutomovil: 0,
