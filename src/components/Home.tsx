@@ -6,6 +6,7 @@ import { getClients } from '../functions/clients.functions';
 import { vehicle, client } from '../types/types';
 import { vehicleDefault } from '../modules/vehicle';
 import { clientDefault } from '../modules/client';
+import Rent from './Rent';
 
 const Home = () => {
     const user = useUserContext();
@@ -23,7 +24,10 @@ const Home = () => {
             {user.idEmpleado !== 0 ? (
                 <div className='flex flex-row justify-around gap-20'>
                     <div className='w-96'>
-                        
+                        <Rent 
+                        vehicles={vehicles}
+                        clients={clients}
+                        />
                     </div>
                     
                     <div className='flex flex-col gap-2'>

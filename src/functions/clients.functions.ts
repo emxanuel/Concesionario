@@ -1,18 +1,13 @@
 import React from "react";
 import { server } from "../backend"
-import { client } from "../types/client";
+import { client } from "../types/types";
 
 const getClients = async (
     setClients: React.Dispatch<React.SetStateAction<client[]>>
 ) => {
-    const request = await fetch(`${server}/api/clients/list`);
-
-    if (request.ok){
-        setClients(await request.json())
-    }
-    else{
-        console.log(request)
-    }
+    await fetch(`${server}/api/clients/list`)
+        .then(async (response) => setClients(await response.json()))
+        .catch(e => console.log(e));
 }
 
 export { getClients }
