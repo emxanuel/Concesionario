@@ -7,7 +7,7 @@ interface Props {
 
 const Layout: React.FC<Props> = ({ Comp }) => {
     return (
-        <div className='h-screen'>
+        <div className=''>
             <Navbar />
             <Comp />
         </div>
