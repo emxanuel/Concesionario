@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace api_concesionario.Models;
+namespace ApiConcesionario.Models;
 
 public partial class Transaccion
 {

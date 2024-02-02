@@ -1,9 +1,9 @@
-﻿using api_concesionario.Models;
+﻿using ApiConcesionario.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace api_concesionario.Controllers
+namespace ApiConcesionario.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

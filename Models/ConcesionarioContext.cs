@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
-namespace api_concesionario.Models;
+namespace ApiConcesionario.Models;
 
 public partial class ConcesionarioContext : DbContext
 {
